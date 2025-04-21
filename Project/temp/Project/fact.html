@@ -1,0 +1,44 @@
+<!--The HTML page to display cat facts in a card style -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Facts</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(60 60 60);
+        }
+        .fact-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .fact-text {
+            font-size: 24px;
+            color: red;
+            margin: 20px 0;
+        }
+        .subtext {
+            color: gray;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fact-container">
+        <h1>🐈 Welcome to Cat Facts 🐈</h1>
+        <h4>Did you know that?</h4>
+        <div class="fact-text">{{ fact }}</div>
+        <p class="subtext">Learn more about your feline friends!</p>
+    </div>
+</body>
+</html>
