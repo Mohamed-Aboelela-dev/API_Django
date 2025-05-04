@@ -40,8 +40,8 @@ API_Django/
 2. **Create a virtual environment and activate it:**
 
    ```bash
-   python -m venv env
-   source env/bin/activate  
+   python -m venv .venv
+   source .venv/bin/activate  
    ```
 
 3. **Install dependencies:**
